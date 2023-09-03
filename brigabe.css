@@ -1,0 +1,125 @@
+/*seção de estilos definidos para elementos específicos*/
+body{ 
+    background-color: #FEF3BB;
+}
+
+hr{   
+    border-top: 2.2px solid #523611;
+    margin: 40px 130px auto 130px;
+}
+
+i{
+    color: #542E17;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*=====================================================*/
+
+
+.titulo { 
+    font-family: "Elika Gorica";
+    color: #9C3430;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 3px 3px 20px #AF605D;
+}
+
+.contQuadrado {
+    width: 17%;
+    height: 5%;
+    background-color: #542E17;
+    color: #FEF3BB;
+    font-size: 17px;
+    font-family: sans-serif;
+    display: flex;    /*ajusta a posição do container para ele ficar com um layout mais flexível*/
+    justify-content: center;  /*ajusta o posic. do texto dentro do container*/
+    margin: -4.5% 50% auto 51%;
+}
+
+
+.contPai{
+    display:flex;
+    margin: 0 100px auto 255px; /*ordem da margem: top, right, bottom, left*/
+}
+
+
+.contRedondo{
+    width: 18%;
+    height: 100px;
+    background-color: #542E17;
+    color: #FEF3BB;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; /*arredonda as bordas*/
+    box-shadow: 3px 3px 20px #AF605D;
+    margin: 20px 25px 2px; /*nesse caso, a ordem da margem é top, right-left*/
+}
+
+.imgCrc{
+    float: right; /*manda a imagem la pra direita*/
+    margin: -70px auto;
+}
+
+.contPaiBrig{
+    display: flex;
+    margin-left: 100px;
+}
+
+.imgBrig{
+    width: 250px;
+    height: 200px;
+    margin: 20px 30px auto 150px;
+    box-shadow:3px 3px 20px #AF605D;
+}
+
+.textoBrig{
+    color:#523611;
+    margin-top: 1%;
+    max-width: 280px;
+    font-family: forum;
+    font-size: 17px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.textoBrigDois{
+    color:#523611;
+    margin-top: 5.5%;
+    margin-left: 30px;
+    max-width: 280px;
+    font-family: forum;
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+}
+
+
+.icons{
+    color:#542E17;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a[href^="mailto"]{
+    color:#542E17;
+}
+
+/*seção de media query
+
+@media screen and (min-width: 412px) and (min-height: 915px){
+    titulo{
+        font-size: 50px;
+    }
+
+    contQuadrado{
+        width: 14%;
+        height: 3%;
+    }
+}*/
