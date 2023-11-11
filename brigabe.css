@@ -41,6 +41,7 @@ i{
 .contPai{
     display:flex;
     margin: 0 100px auto 255px; /*ordem da margem: top, right, bottom, left*/
+    flex-wrap: wrap;
 }
 
 
@@ -49,7 +50,7 @@ i{
     height: 100px;
     background-color: #542E17;
     color: #FEF3BB;
-    font-size: 12px;
+    font-size: 13px;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -57,6 +58,7 @@ i{
     border-radius: 50px; /*arredonda as bordas*/
     box-shadow: 3px 3px 20px #AF605D;
     margin: 20px 25px 2px; /*nesse caso, a ordem da margem é top, right-left*/
+    transition: 0.5s;
 }
 
 .imgCrc{
@@ -107,19 +109,19 @@ i{
     align-items: center;
 }
 
+
+
 a[href^="mailto"]{
     color:#542E17;
+    transition: 0.5s;
 }
 
-/*seção de media query
+a[href^="mailto"]:hover{
+    color:#AF605D;
+}
 
-@media screen and (min-width: 412px) and (min-height: 915px){
-    titulo{
-        font-size: 50px;
-    }
+.contRedondo:hover {
 
-    contQuadrado{
-        width: 14%;
-        height: 3%;
-    }
-}*/
+    background-color: #AF605D;
+    cursor: pointer;
+}
