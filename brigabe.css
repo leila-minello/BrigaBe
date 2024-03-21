@@ -125,3 +125,16 @@ a[href^="mailto"]:hover{
     background-color: #AF605D;
     cursor: pointer;
 }
+
+body::-webkit-scrollbar {
+    width: 5px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:#542E17;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:#AF605D;   
+    border-radius: 20px;       
+  }
